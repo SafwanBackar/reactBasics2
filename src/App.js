@@ -3,6 +3,7 @@ import './App.css';
 import LifecycleA from './Components/LifecycleA';
 import RefsDemo from './Components/RefsDemo';
 import PortalDemo from './Components/PortalDemo';
+import ClickCounter from './Components/ClickCounter';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       {/* <LifecycleA/> */}
       {/* <RefsDemo/> */}
       {/* Added a new element in index.html */}
-      <PortalDemo/>
+      {/* <PortalDemo/> */}
+      <ClickCounter/>
     </div>
   );
 }
