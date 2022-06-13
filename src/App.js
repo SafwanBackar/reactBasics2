@@ -4,6 +4,7 @@ import LifecycleA from './Components/LifecycleA';
 import RefsDemo from './Components/RefsDemo';
 import PortalDemo from './Components/PortalDemo';
 import ClickCounter from './Components/ClickCounter';
+import HoverCounter from './Components/HoverCounter';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       {/* Added a new element in index.html */}
       {/* <PortalDemo/> */}
       <ClickCounter/>
+      <HoverCounter/>
     </div>
   );
 }
