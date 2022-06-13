@@ -19,4 +19,8 @@ function App() {
   );
 }
 
+function sam (){
+  console.log('slkdf');
+}
+
 export default App;
